@@ -13,6 +13,8 @@
 		0DB415B52B5A6AEC008C411E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DB415B32B5A6AEC008C411E /* Main.storyboard */; };
 		0DB415B72B5A6AEE008C411E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB415B62B5A6AEE008C411E /* Assets.xcassets */; };
 		0DB415BA2B5A6AEE008C411E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DB415B82B5A6AEE008C411E /* LaunchScreen.storyboard */; };
+		0DB415C22B5A77A1008C411E /* NaikaiFont-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DB415C12B5A77A1008C411E /* NaikaiFont-Light.ttf */; };
+		0DB415C42B5E92BE008C411E /* animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB415C32B5E92BE008C411E /* animals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0DB415B62B5A6AEE008C411E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DB415B92B5A6AEE008C411E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DB415BB2B5A6AEE008C411E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DB415C12B5A77A1008C411E /* NaikaiFont-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NaikaiFont-Light.ttf"; sourceTree = "<group>"; };
+		0DB415C32B5E92BE008C411E /* animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 		0DB415AC2B5A6AEC008C411E /* Pet Adoption */ = {
 			isa = PBXGroup;
 			children = (
+				0DB415C12B5A77A1008C411E /* NaikaiFont-Light.ttf */,
 				0DB415AD2B5A6AEC008C411E /* AppDelegate.swift */,
 				0DB415AF2B5A6AEC008C411E /* SceneDelegate.swift */,
+				0DB415C32B5E92BE008C411E /* animals.swift */,
 				0DB415B12B5A6AEC008C411E /* ViewController.swift */,
 				0DB415B32B5A6AEC008C411E /* Main.storyboard */,
 				0DB415B62B5A6AEE008C411E /* Assets.xcassets */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DB415BA2B5A6AEE008C411E /* LaunchScreen.storyboard in Resources */,
+				0DB415C22B5A77A1008C411E /* NaikaiFont-Light.ttf in Resources */,
 				0DB415B72B5A6AEE008C411E /* Assets.xcassets in Resources */,
 				0DB415B52B5A6AEC008C411E /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DB415B22B5A6AEC008C411E /* ViewController.swift in Sources */,
+				0DB415C42B5E92BE008C411E /* animals.swift in Sources */,
 				0DB415AE2B5A6AEC008C411E /* AppDelegate.swift in Sources */,
 				0DB415B02B5A6AEC008C411E /* SceneDelegate.swift in Sources */,
 			);
